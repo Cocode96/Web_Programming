@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{list-style-type: none;}
+        label{ width: 150px;
+                float: left;
+                /* 정렬방식이 왼쪽정렬이다. */
+                margin-left: 10px;
+                }
+        input{width: 100px;}
+    </style>
+</head>
+<body>
+    <h1>프런트엔드 개발자 지원서</h1>
+    <p>HTML, CSS Javascrip에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+    <hr>
+    <form action="">
+        
+        <ul>
+            <p><b>개인정보</b></p>
+            <li>
+                <label for="inputName">이름</label>
+                <input type="text" id="inputName" name="" required>
+            </li>
+            <li>
+                <label for="inputTel">연락처</label>
+                <input type="tel" id="inputTel" name="" placeholder="000-0000-0000" required>
+            </li>
+            <p><b>지원분야</b></p>
+            <li>
+                <label for="suj1">웹퍼블리싱</label>
+                <input type="radio" id="suj1" name="subject">
+            </li>
+            <li>
+                <label for="suj2">웹어플리케이션 개발</label>
+                <input type="radio" id="suj2" name="subject">
+            </li>
+            <li>
+                <label for="suj3">개발환경 개선</label>
+                <input type="radio" id="suj3" name="subject">
+            </li><br>
+            <p><b>지원동기</b></p>
+            <li>
+                <textarea name="motivation" id="" cols="50" rows="10" placeholder="본사 지원 동기를 간략히 써주세요."></textarea>
+            </li>
+            
+            <input type="submit" value="접수하기">
+            <input type="reset" value="다시쓰기">
+        </ul>
+    </form>
+</body>
+</html>

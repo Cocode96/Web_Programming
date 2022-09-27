@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title> 표만들기 </title>
+			<style>
+			table, th, td {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			}
+			th, td {
+			  padding: 5px;
+			  width: 110px;
+				}
+</style>
+	</head>
+	<body>
+<!-- 기본 테이블 만들기
+		<table>
+			<tr>
+				<th>번호</th>
+				<th>이름</th>
+				<th>전화번호</th>
+			</tr>
+			<tr>
+				<td>01</td>
+				<td>김말동</td>
+				<td>010-111-1111</td>
+			</tr>
+			<tr>
+				<td>02</td>
+				<td>홍길동</td>
+				<td>010-222-2222</td>
+			</tr>
+		</table>
+-->
+<!-- 열/행 병합 테이블 만들기
+		<table>
+			<tr>
+				<td>번호</td>
+				<td>이름</td>
+				<td>전화번호</td>
+			</tr>
+			<tr>
+				<td rowspan="2"></td>
+				<td colspan="2"></td>
+				
+			</tr>
+			<tr>
+				
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+ -->
+<!-- 열병합예제
+		<table>
+			<tr>
+				<td>이름</td>
+				<td></td>
+				<td>연락처</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>주소</td>
+				<td colspan="3"></td>
+			</tr>
+			<tr>
+				<td>자기소개</td>
+				<td colspan="3"></td>
+			</tr>
+		</table>
+-->
+		<table>
+			<tr>
+				<th> 방이름 </th>
+				<th> 대상 </th>
+				<th> 크기 </th>
+				<th> 가격 </th>
+			</tr>
+			<tr>
+				<td>유채방</td>
+				<td>여성 도미토리 </td>
+				<td rowspan="3">4인실</td>
+				<td rowspan="4">1인 20,000원</td>
+			</tr>
+			<tr>
+				<td rowspan="2">동백방</td>
+				<td>동성 도미토리</td>
+			</tr>
+			<tr>
+				<td>가족 1팀</td>
+			</tr>
+			<tr>
+				<td>천혜향방</td>
+				<td>-</td>
+				<td>2인실</td>
+			</tr>
+			<tr>
+				<th colspan="4">바깥채 전체를 렌트 합니다.</th>
+			</tr>
+		</table>
+
+	</body>
+</html>

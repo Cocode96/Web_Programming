@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            float: left;
+            margin: 50px;
+        }
+        .box1{
+
+            box-sizing: content-box; /* width 지정시 요소의 넓이로 지정 */
+            width: 300px;
+            height: 150px;
+            margin: 10px; /*상하좌우 10px /요소와 요소사이의 여백/ */
+            padding: 30px;/* 요소와 보더사이의 여백 */
+            border: 2px solid rgb(199, 61, 176);
+        }
+        .box2{
+            
+            box-sizing: border-box; /* widhte 지정시 border까지의 넓이로 지정 */
+            width: 300px;
+            height: 150px;
+            margin: 10px; /*상하좌우 10px /요소와 요소사이의 여백/ */
+            padding: 30px;/* 요소와 보더사이의 여백 */
+            border: 2px solid rgb(199, 61, 176);
+        }
+        .box3{
+            clear:  both;
+            box-sizing: border-box; /* widhte 지정시 border까지의 넓이로 지정 */
+            width: 300px;
+            height: 150px;
+            margin: 10px; /*상하좌우 10px /요소와 요소사이의 여백/ */
+            padding: 30px;/* 요소와 보더사이의 여백 */
+            border: 2px solid rgb(199, 61, 176);
+        }
+    </style>
+</head>
+
+<body>
+    <body>
+        <div class="box1"> box-sizing = "content-box" </div>
+        <div class="box2"> box-sizing = "border-box"</div>
+        <div class="box3"> clear = "both"</div>
+    </body>
+</body>
+</html>

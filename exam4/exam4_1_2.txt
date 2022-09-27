@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="firstname" value=""><br>
+  <!-- 서버로 전송될때는 name 값을 전송한다. -->
+  
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lastname" value=""><br><br>
+  
+  <label for="email">Mail address:</label><br>
+  <input type="email" id="email" name="emaila" value=""><br><br> 
+  
+  <input type="submit" value="Submit">
+
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

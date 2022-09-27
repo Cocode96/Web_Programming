@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style-type: square; /* disc: 채워진 원, circle: 원, square: 채워진 네모 none : 불릿없애기 */
+        }
+        p{
+            text-indent: 2%; /* 들여쓰기 */
+        }
+        a{
+            text-decoration: none;
+        }
+        .listStyleIcon{
+            list-style-image: url(img/dot.png);
+        }
+        .redfont{
+            color: red;
+        }
+        .pinkfont{
+            color: rgb(224, 45, 150);
+        }
+       
+        .transUpper{
+            text-transform: uppercase;
+        }
+        .trandLower{
+            text-transform: lowercase; /* 소문자로*/
+        }
+        .textCapitalize{
+            text-transform: capitalize; /* 첫 글자 대문자로 변환 */
+        }
+        .letter1{
+            letter-spacing: 0.2em; /* 자간 */
+        }
+        .para1{
+            /* text-align: center; */
+            text-align: justify; /* 양쪽정렬 */
+            line-height: 5em;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>HTML5</h1>
+<hr>
+위키백과, 우리 모두의 백과사전.<br>
+&nbsp&nbsp&nbsp(<span class="pinkfont">Html5</span>에서 넘어옴)
+
+<p class="letter1">HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 (<span class="transUpper">World Wide Web</span>)의 핵심 <span class="pinkfont">마크업 언어</span>이다. 2004년 7월 <span class="trandLower">Web Hypertext Application Technology Working Group</span>(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을 시작하였다.
+HTML5는 <span class="redfont">HTML 4.01</span>, <span class="pinkfont">XHTML 1.0</span>, <span class="textCapitalize">dom</span> 레벨 2 HTML에 대한 차기 표준 제안이다.</p> 
+<p class="para1">비디오, 오디오 등 다양한 부가기능과 최신 멀티미디어 콘텐츠를 액티브X 없이 브라우저에서 쉽게 볼 수 있게 하는 것을 목적으로 한다.
+    <a href="http://www.w3c.org">W3C</a>는 2014년 10월 28일 HTML5 표준안을 확정했다고 발표했다.</p>
+<p>이후 2016년 11월 1일 HTML5의 마이너 업데이트 버전인 HTML5.1 표준안을 확정, 2017년 12월 14일 HTML5.2 표준안을 확정했다.</p> 
+<p>HTML5.3 표준안은 현재 작업 초안 단계로 진행 중이다.</p>
+<h1>HTML4와의 차이점</h1>
+<ul>
+    <li>요소 추가</li>
+        <ul>
+            <li>구조적인 요소 - 구역을 나누는 블록 요소인 div 요소를 대신한다.</li>
+                <ul class="listStyleIcon">
+                    <li>header</li>
+                    <li>nav</li>
+                    <li>article</li>
+                    <li>section</li>
+                    <li>aside</li>
+                    <li>footer</li>
+                </ul>
+            <li>멀티미디어 요소 - <span class="pinkfont">플러그인</span> 없이 멀티미디어를 재생할 수 있게 한다.</li>
+                <ul class="listStyleIcon">
+                    <li>audio - 오디오를 재생한다.</li>
+                    <li>video - 비디오를 재생한다.</li>
+                    <li>canvas</li>
+            </ul>  
+            <li>command</li>
+            <li>datalist</li>
+            <li>details</li>
+            <li>embed</li>
+            <li>figure</li>
+            <li>figcaption</li>                
+        </ul>
+
+        
+        
+        
+        
+        
+        
+</ul>
+</body>
+</html>

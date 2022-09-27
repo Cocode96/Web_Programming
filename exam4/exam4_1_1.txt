@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <!-- for의 속성값과 input의 id는 일치되어야 한다.-->
+  <input type="text" id="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" value=""><br>
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="email" value="">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of text input fields is 20 characters.</p>
+
+</body>
+</html>

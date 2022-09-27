@@ -1,0 +1,14 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta chraset="UTF-8">
+	<title> 링크 삽입 </title>
+</head>
+<body>
+	<h1>다음 페이지로 이동</h1>
+	<a href="http://www.daum.net" target="_blank">다음</a>
+	<h1>다음 페이지로 이동</h1>
+	<a href="http://www.daum.net" target="_blank"><img src="C:\Users\VIP\Desktop\경기과학기술대 1학년\웹프로그래밍 1학년\웹프로그래밍 3주차\3주차수업자료\img\다음로고.gif"></a>
+</body>
+</html>

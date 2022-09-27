@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{list-style: none;
+            padding: 1px;
+            }
+        label{ width: 120px;
+                float: left;
+            }
+        select{width: 80px;
+            }
+        textarea{width: 400px;
+                height: 100px;
+            }
+    </style>
+</head>
+<body>
+    <img src="img\form_과제.png" alt="">
+    <h3>회원 가입 양식</h3>
+    <form action="">
+    <ul>
+        <li>
+        <label for="inputID">-아이디</label>
+        <input type="text" id="inputID" name="" required>
+        </li>
+        <li>
+            <label for="inputPin">-비밀번호</label>
+            <input type="password" id="inputPin" name="" required>
+        </li>
+        <li>
+            <label for="inputPinCheck">-비밀번호 확인</label>
+            <input type="password" id="inputPinCheck" name="" required>
+            </li>
+        <li>
+            <label for="inputName">-이름</label>
+            <input type="text" id="inputName" name="" required>
+        </li>
+        <li>
+            <label for="inputGender">-성별</label>
+            <input type="radio" id="inputFemale" name="gender" required>
+            <span>여성</span>
+            <input type="radio" id="inputMale" name="gender" required>
+            <span>남성</span>
+        </li>
+        <li>
+            <label for="inputTel">-전화번호</label>
+            <select name="" id="inputTel">
+            <option value="Seoul">02</option>
+            <option value="Gyeonggi">031</option>
+            <option value="Incheon">032</option>
+            <option value="Gangwon">033</option>
+            <option value="Chungnam">041</option>
+            <option value="Daejeon">042</option>
+            <option value="Chungbuk">043</option>
+            <option value="Sejong">044</option>
+            <option value="Busan">051</option>
+            <option value="Ulsan">052</option>
+            <option value="Dae-gu">053</option>
+            <option value="Gyeongbuk,Ulleungdo,Dokdo">054</option>
+            <option value="Gyeongnam">055</option>
+            <option value="Jeonnam">061</option>
+            <option value="Jeju">064</option>
+            <option value="Gwangju">062</option>
+            <option value="Jeonbuk">063</option>
+            </select>
+            <span>-</span>
+            <input type="tel" id="inputTel" name="" required>
+            <span>-</span>
+            <input type="tel" id="inputTel" name="" required>
+        </li>
+        <li>
+            <label for="inputEmail">-이메일</label>
+            <input type="text" id="inputEmail" name="" required>
+            <span>@</span>
+            <select name="" id="inputEmail">
+                <option value="None">선택</option>
+                <option value="Naver">naver.com</option>
+                <option value="Daum">daum.com</option>
+                <option value="Nate">nate.com</option>
+            </select>
+        </li>
+        <li>
+            <label for="inputIntroduce"><br><br>-자기소개</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </li>
+    </ul>
+    </form>
+</body>
+</html>

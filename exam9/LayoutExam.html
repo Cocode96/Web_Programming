@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid rgb(194, 192, 192);
+        }
+        #container{
+            width: 960px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        #header{
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        #contets{
+            width: 620px;
+            padding: 20px;
+            float: left; /* div 요소는 한라인 점유하는데 float을 설정하면 본요소의 영역을 할당받고 나머지 공간을 다른 요소 배치 영역으로 남겨둔다.*/
+            margin-bottom: 20px;
+        }
+        #sidebar{
+            width: 220px;
+            padding: 20px;
+            background-color: burlywood;
+            float: right;
+            margin-bottom: 20px;
+        }
+        #footer{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"><h1>사이트 제목</h1></div>
+        <div id="contets">
+            <h1>본문</h1>
+            <p>탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 그 권한행사가 정지된다. 각급 선거관리위원회는 선거인명부의 작성등 선거사무와 국민투표사무에 관하여 관계 행정기관에 필요한 지시를 할 수 있다. 국회의원은 국가이익을 우선하여 양심에 따라 직무를 행한다. 감사원은 세입·세출의 결산을 매년 검사하여 대통령과 차년도국회에 그 결과를 보고하여야 한다.</p>
+            <p>근로자는 근로조건의 향상을 위하여 자주적인 단결권·단체교섭권 및 단체행동권을 가진다. 모든 국민은 보건에 관하여 국가의 보호를 받는다. 외국인은 국제법과 조약이 정하는 바에 의하여 그 지위가 보장된다. 선거에 있어서 최고득표자가 2인 이상인 때에는 국회의 재적의원 과반수가 출석한 공개회의에서 다수표를 얻은 자를 당선자로 한다.</p>
+        </div>
+        <div id="sidebar">
+            <h1>사이드바</h1>
+            <ul>
+                <li>대한민국의 국민이 되는 요건은 법률로 정한다. 통신·방송의 시설기준과 신문의 기능을 보장하기 위하여 필요한 사항은 법률로 정한다.</li>                
+            </ul>
+        </div>
+        <div id="footer">
+            <h1>바닥글</h1>           
+            <dl>
+            	<dt>국회의원은 법률이 정</dt>
+            	<dd>모든 국민은 법률이 정하는 바에 의하여 공무담임권을 가진다. 군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한 군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중 법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는 군사법원의 재판을 받지 아니한다.</dd>
+            </dl>
+        </div>
+
+    </div>
+</body>
+</html>
